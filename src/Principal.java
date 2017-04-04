@@ -3,7 +3,7 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		Carro meuFusquinha = new Carro("Fusca 67");
-		meuFusquinha.setQuantidadePortas(0);
+		meuFusquinha.setQuantidadePortas(20);
 		meuFusquinha.setQuantidadeRodas(4);
 		meuFusquinha.setCor("Vermelho");
 		

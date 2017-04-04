@@ -3,7 +3,7 @@ public class Carro {
 	
 	public final static String DOMINIO = "Carro";
 	private String modelo;
-	private int quantidadePortas;
+	private Integer quantidadePortas;
 	private String cor;
 	private int quantidadeRodas;
 	
@@ -15,8 +15,12 @@ public class Carro {
 		return modelo;
 	}
 	
-	public int getQuantidadePortas() {
-		return quantidadePortas;
+	public String getQuantidadePortas() {
+		if(quantidadePortas==null){
+			return "";
+		} else {
+		return quantidadePortas.toString();
+		}
 	}
 	
 	public String getCor() {
