@@ -7,10 +7,10 @@ public class Principal {
 		meuFusquinha.setQuantidadeRodas(4);
 		meuFusquinha.setCor("Vermelho");
 		
-		System.out.println(Carro.DOMINIO + " é do modelo " + meuFusquinha.getModelo());
-		System.out.println(Carro.DOMINIO + " tem o total de " + meuFusquinha.getQuantidadePortas() + " portas.");
-		System.out.println(Carro.DOMINIO + " tem o total de " + meuFusquinha.getQuantidadeRodas() + " rodas.");
-		System.out.println(Carro.DOMINIO + " é da cor " + meuFusquinha.getCor());
+		System.out.println(Mensagens.MENSAGEM_AO_BUSCAR_MODELO + meuFusquinha.getModelo());
+		System.out.println(Mensagens.MENSAGEM_AO_BUSCAR_QUANTIDADE_PORTA + meuFusquinha.getQuantidadePortas());
+		System.out.println(Mensagens.MENSAGEM_AO_BUSCAR_QUANTIDADE_RODA + meuFusquinha.getQuantidadeRodas());
+		System.out.println(Mensagens.MENSAGEM_AO_BUSCAR_COR + meuFusquinha.getCor());
 	
 	}
 }
